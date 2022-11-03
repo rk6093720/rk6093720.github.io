@@ -87,6 +87,7 @@ section .title::after{
     padding: 30px 0;
     font-family: 'Ubuntu', sans-serif;
     transition: all 0.3s ease;
+    background-color: RED;
 }
 .navbar.sticky{
     padding: 15px 0;
@@ -738,6 +739,11 @@ footer span a:hover{
     flex-direction: column;
   }    
 }
+@media only screen and (min-width:768px) {
+    #stats .all-items {
+      flex-direction: row;
+    }    
+  }
 
 .calendar{
     width: 90%;
